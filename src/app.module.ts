@@ -10,7 +10,7 @@ import configuration from './config/configuration';
 
 @Module({
   imports: [
-    ConfigModule.forRoot({ 
+    ConfigModule.forRoot({
       isGlobal: true,
       load: [configuration],
     }),
